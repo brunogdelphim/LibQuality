@@ -18,3 +18,10 @@ NodeJs will orchestrate the data gathering, modeling and syncronization
 ## 4) GitHub API
 https://developer.github.com/v3/ No authentication needed
 
+# Diagram
+![LibQuality](https://github.com/brunogdelphim/LibQuality/blob/main/LibQualy.png)
+
+- User will reach GitHub via <strong>Backend</strong> on first access
+- User will be tracked (cookies and search history) to local storage its queries
+- <strong>Front-end</strong> will use tracked data to provide acertive data
+- <strong>Backend</strong> will keep the <strong>Database</strong> up-to-date in scheduled manner
